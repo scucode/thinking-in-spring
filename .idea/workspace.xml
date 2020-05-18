@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95de7f7-af56-4c74-a36c-76ea2235dfcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking-in-spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/ioc-container.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/src/main/java/com/imicode/study/container/overview/annotation/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/src/main/java/com/imicode/study/container/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/src/main/java/com/imicode/study/container/overview/domain/SuperUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/src/main/java/com/imicode/study/container/overview/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/src/main/resources/META-INF/dependency-lookup-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/target/classes/META-INF/dependency-lookup-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/target/classes/com/imicode/study/container/overview/annotation/Super.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/target/classes/com/imicode/study/container/overview/dependency/lookup/DependencyLookupDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/target/classes/com/imicode/study/container/overview/domain/SuperUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container/target/classes/com/imicode/study/container/overview/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +62,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunManager">
+    <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imicode.study.container.overview.dependency.lookup.DependencyLookupDemo" />
+      <module name="ioc-container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imicode.study.container.overview.dependency.lookup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DependencyLookupDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -69,18 +106,54 @@
       <updated>1589778242895</updated>
       <workItem from="1589778247623" duration="102000" />
       <workItem from="1589778406549" duration="296000" />
-      <workItem from="1589778730853" duration="246000" />
+      <workItem from="1589778730853" duration="2372000" />
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1589779087734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589779087734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1054" y="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1589779814359">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1054" y="568" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1589779814359" />
+    <state x="890" y="298" key="CommitChangelistDialog2" timestamp="1589779082295">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="890" y="298" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1589779082295" />
     <state x="1060" y="458" key="FileChooserDialogImpl" timestamp="1589778443281">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="458" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1589778443281" />
+    <state width="1322" height="181" key="GridCell.Tab.0.bottom" timestamp="1589780978348">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589780978348" />
+    <state width="1322" height="181" key="GridCell.Tab.0.center" timestamp="1589780978348">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589780978348" />
+    <state width="1322" height="181" key="GridCell.Tab.0.left" timestamp="1589780978348">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589780978348" />
+    <state width="1322" height="181" key="GridCell.Tab.0.right" timestamp="1589780978348">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589780978348" />
     <state x="783" y="345" key="SettingsEditor" timestamp="1589778701950">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -89,5 +162,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="972" y="528" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589778729449" />
+    <state x="654" y="404" key="new project wizard" timestamp="1589779365028">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="654" y="404" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1589779365028" />
+    <state x="912" y="658" width="672" height="678" key="search.everywhere.popup" timestamp="1589781076919">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="912" y="658" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1589781076919" />
   </component>
 </project>
