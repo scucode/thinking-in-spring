@@ -34,8 +34,8 @@ public class AnnotationBeanDefinitionDemo {
         registerUserBeanDefinition(applicationContext);
 
 //      依赖查找
-        System.out.println("" + applicationContext.getBeansOfType(Config.class));
-        System.out.println("" + applicationContext.getBeansOfType(User.class));
+        System.out.println("config: " + applicationContext.getBeansOfType(Config.class));
+        System.out.println("user: " + applicationContext.getBeansOfType(User.class));
 
         applicationContext.close();
     }
